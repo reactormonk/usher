@@ -53,7 +53,7 @@ describe "Usher route adding" do
       @p2 = @r2.paths.first
     end
     
-    it "should craete a new path object" do
+    it "should create a new path object" do
       @p1.merge(@p2).should_not eql(@p1)
     end
     
